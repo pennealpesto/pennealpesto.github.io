@@ -1,4 +1,0 @@
----
-title: Giannakoulas
-username: giannakoulas
----

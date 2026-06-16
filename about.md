@@ -1,45 +1,49 @@
 ---
 layout: about
 title: Penne al pesto
-subtitle: Tι είναι το penne al pesto;
+subtitle: 
 headerTitle: About
-banner: 'mybanner' 
+# banner: 'mybanner' 
 order: 1
 ---
 
-### Education
+[English below](#english)
 
-Degree title
+## Tι είναι το penne al pesto;
 
-Dates - location
+Το penne al pesto είναι ένα πρότζεκτ συγγραφής, ανάγνωσης, λεκτικού αυτοσχεδιασμού, ερμηνείας και παρερμηνείας με έδρα τα Χανιά. Στα πλαίσια των 22ων γενεθλίων της κατάληψης Rosa Nera απέκτησε και ψηφιακή μορφή, στην οποία φιλοξενούνται έργα απο φίλες, φίλους, φίλα.
 
-Short description
+## Γενέθλια Rosa Nera
 
-### Work Experience
+Παρακάτω η αφίσα των γενεθλίων.
 
-Position title
+![Poster](/assets/images/rosa_22_web.jpg)
 
-Dates - location
+### Δευτέρα 22/6
+- 2ος χρόνος βραδιές ποίησης: Ποιητικά παιχνίδια, συλλογική γραφή και ανάγνωση κ.α. ..., στις 20.00
 
-Knowledge gained
+### Τρίτη 23/6
+- Oι κινηματικοί χώροι μπροστά στο σταυροδρόμι της αξιοποίησης : Ο καταληψιακός λόγος απέναντι στην πολιτιστική κληρονομιά, στις 20.00
 
-### Excibition Participation
+### Τετάρτη 24/6
+- Εκδήλωση - Συζήτηση :Σουδάν, ανάμεσα στην επανάσταση και τον πόλεμο . Με τους Mataris  Sudan Solidarity Committee και 50 out of many, στις 20.00
 
-Excibition title
+### Παρασκευή 26/6
+- Θέατρο σκιών: "Ο Δράκος του Νερού", από το Νίκο Μπλαζάκη. Μία παράσταση για μικρούς και μεγάλους, στις 21.00
+- "Ο τσάμπας πέθανε... Ζωή σε 'μας". Μία μικρή σουρρεαλιστική παράσταση από το θεατρικό εργαστήρι της κατάληψης, στις 22.00
+- Αντιεμπορευματικό καφενείο στην αυλή της κατάληψης rosa nera, στις 22.30
 
-Dates - location
+### Σάββατο 27/6
+- Live με τους : LustTone, Feral Kids και Μεγάλη Φυγή, στις 21.00
 
-short description
+### Κυριακή 28/6
+- Γλέντι γενεθλίων και οικονομικής ενίσχυσης των υποδομών της κατάληψης με τους: Yar Aman, κρητικό σχήμα και λαική οργή, στις 21.00
 
-### Seminars
 
-<p>
-:art:&nbsp;Yet another theme for elegant writers with modern flat style
-and beautiful night mode.
-</p>
+## What is penne al pesto? {#english}
 
-<p>
-Hey, nice to meet you, you found this Jekyll theme. Here the yet another
-theme is a modern theme, and it's quite clear, clean and neat for writers
-and posts.
-</p>
+Penne al pesto is a writing, reading, verbal improvisation, interpretation and misinterpretation project based in Chania. Within the framework of Rosa Nera squat's 22nd anniversary a website was created, where works by friends are on display.
+
+Below is the birthday events' poster.
+
+![Post main image](/assets/images/rosa_22_web.jpg)

@@ -647,7 +647,7 @@ html[data-scroll-status=down] .framework .sidebar {
 }
 .post .post-content img:not(.emoji), .post .post-content svg, .post .post-content iframe {
   display: block;
-  max-height: 50vh;
+  max-height: 500vh;
 }
 .post .post-content h2, .post .post-content h3, .post .post-content h4, .post .post-content h5, .post .post-content h6 {
   margin: 60px 0 19px;
