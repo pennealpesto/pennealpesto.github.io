@@ -1,0 +1,14 @@
+<script>
+(function() {
+  try {
+    const stored = JSON.parse(sessionStorage.getItem('theme') || '{}');
+    const nightShift = stored && typeof stored.nightShift === 'boolean'
+      ? stored.nightShift
+      : true; // default dark
+
+    document.documentElement.dataset.theme = nightShift ? 'dark' : 'light';
+  } catch(e) {
+    document.documentElement.dataset.theme = 'dark';
+  }
+})();
+</script>

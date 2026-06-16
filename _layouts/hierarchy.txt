@@ -1,0 +1,10 @@
+default
+default - 404
+default - framework
+default - framework - archives
+default - framework - categories
+default - framework - tags
+default - framework - articles
+default - framework - post
+default - framework - post - about
+default - framework - articles - home
