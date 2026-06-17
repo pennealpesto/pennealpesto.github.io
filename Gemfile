@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Jekyll itself
-gem "jekyll", "~> 3.10.0"
+gem "jekyll", "~> 4.4.1"
 
 # Needed on Ruby 3+ for jekyll serve on Windows
 gem "webrick"
