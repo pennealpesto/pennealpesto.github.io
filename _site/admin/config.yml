@@ -7,173 +7,58 @@ backend:
   # login: true
   # roles: ["admin", "editor"]
 
-media_folder: "assets/images/uploads"
-public_folder: "/assets/images/uploads"
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
-
-  # =====================
-  # 🌍 PAGES (EN + DE)
-  # =====================
-  - name: "pages"
-    label: "Pages"
-    files:
-
-      # 🏠 Welcome
-      - name: "welcome_en"
-        label: "Welcome (EN)"
-        file: "welcome.en.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Main Image", name: "image", widget: "image" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-      - name: "welcome_de"
-        label: "Welcome (DE)"
-        file: "welcome.de.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Main Image", name: "image", widget: "image" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-      # 👤 About
-      - name: "about_en"
-        label: "About (EN)"
-        file: "about.en.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Main Image", name: "image", widget: "image" }
-
-          - label: "Sections"
-            name: "sections"
-            widget: "list"
-            fields:
-              - { label: "Category Title", name: "title", widget: "string" }
-
-              - label: "Entries"
-                name: "entries"
-                widget: "list"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "From", name: "from", widget: "datetime" }
-                  - { label: "To", name: "to", widget: "datetime", required: false }
-                  - { label: "Location", name: "location", widget: "string", required: false }
-                  - { label: "Description", name: "description", widget: "text", required: false }
-
-      - name: "about_de"
-        label: "About (DE)"
-        file: "about.de.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Main Image", name: "image", widget: "image" }
-
-          - label: "Sections"
-            name: "sections"
-            widget: "list"
-            fields:
-              - { label: "Category Title", name: "title", widget: "string" }
-
-              - label: "Entries"
-                name: "entries"
-                widget: "list"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "From", name: "from", widget: "datetime" }
-                  - { label: "To", name: "to", widget: "datetime", required: false }
-                  - { label: "Location", name: "location", widget: "string", required: false }
-                  - { label: "Description", name: "description", widget: "text", required: false }
-
-      # 🖼️ Portfolio
-      - name: "portfolio_en"
-        label: "Portfolio (EN)"
-        file: "portfolio.en.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-      - name: "portfolio_de"
-        label: "Portfolio (DE)"
-        file: "portfolio.de.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-      # 📞 Contact
-      - name: "contact_en"
-        label: "Contact (EN)"
-        file: "contact.en.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-          - label: "Contacts"
-            name: "contacts"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "string" }
-              - { label: "Value", name: "value", widget: "string" }
-
-      - name: "contact_de"
-        label: "Contact (DE)"
-        file: "contact.de.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Text", name: "body", widget: "markdown" }
-
-          - label: "Contacts"
-            name: "contacts"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "string" }
-              - { label: "Value", name: "value", widget: "string" }
-
-  # =====================
-  # 🎨 PROJECTS (Portfolio)
-  # =====================
-  - name: "projects_en"
-    label: "Projects (EN)"
-    folder: "_projects_en"
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
     create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Cover Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-      - label: "Gallery"
-        name: "gallery"
-        widget: "list"
-        fields:
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Image Description", name: "caption", widget: "string", required: false }
-          - label: "Display"
-            name: "display"
-            widget: "select"
-            options:
-              - { label: "Full Width", value: "full" }
-              - { label: "Thumbnail", value: "thumb" }
-            default: "full"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
 
-  - name: "projects_de"
-    label: "Projects (DE)"
-    folder: "_projects_de"
-    create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Cover Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-      - label: "Gallery"
-        name: "gallery"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        default: "{{now}}"
+        format: "YYYY-MM-DD HH:mm:ss Z"
+
+      - label: "Tags"
+        name: "tags"
         widget: "list"
-        fields:
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Image Description", name: "caption", widget: "string", required: false }
-          - label: "Display"
-            name: "display"
-            widget: "select"
-            options:
-              - { label: "Full Width", value: "full" }
-              - { label: "Thumbnail", value: "thumb" }
-            default: "full"
+        allow_add: true
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Excerpt Image"
+        name: "excerpt_image"
+        widget: "image"
+
+      - label: "Content"
+        name: "content_text"
+        widget: "markdown"
+
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "pennealpesto"
+
+      - label: "Body"
+        name: "body"
+        widget: "hidden"
+        default: |
+          <!-- image + content injected in template -->
