@@ -17,6 +17,6 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold;"
+  heading_style: "font-size: 3.25em; font-weight: bold;"
   subheading_style: "color: gold"
 ---

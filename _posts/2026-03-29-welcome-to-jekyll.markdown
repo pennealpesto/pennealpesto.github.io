@@ -8,17 +8,6 @@ content_text: Το πρώτο ποίημα
 author: pennealpesto
 ---
 
-![Post main image]({{ page.excerpt_image }})
-
-{{ page.content_text }}
-
-<div class="pagination">
-  <div class="post-tags">
-    {%- for tag in page.tags -%}
-    <a class="post-tag" href="{{ '/tags.html' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
-    {%- endfor -%}
-  </div>
-</div>
 
   
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
