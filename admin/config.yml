@@ -39,6 +39,7 @@ collections:
         name: "tags"
         widget: "list"
         allow_add: true
+        required: false
         field:
           label: "Tag"
           name: "tag"
@@ -48,6 +49,7 @@ collections:
         name: "images"
         widget: "list"
         allow_add: true
+        required: false
         field:
           label: "Image"
           name: "image"
@@ -56,11 +58,13 @@ collections:
       - label: "Content"
         name: "content_text"
         widget: "markdown"
+        required: false
 
       - label: "Author"
         name: "author"
         widget: "string"
         default: "pennealpesto"
+        required: false
 
       - label: "Body"
         name: "body"
