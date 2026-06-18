@@ -21,7 +21,7 @@
 {%- include functions.html func='get_value' -%}
 {%- assign default_image = return -%}
 
-{%- assign post_image = post.excerpt_image
+{%- assign post_image = post.images.first
   | default: post.banner.image
   | default: post.banner
   | default: default_image

@@ -25,10 +25,13 @@ sidebar:
     <!-- CUSTOM ARTICLE BLOCK (replaces views/article.html) -->
     <div class="post-article">
 
-      {%- if page.excerpt_image -%}
-      <img class="post-main-image" src="{{ page.excerpt_image }}" alt="Post main image">
+      {%- if page.images and page.images.size > 0 -%}
+      <div class="post-images">
+        {%- for image in page.images -%}
+        <img class="post-main-image" src="{{ image }}" alt="Post image {{ forloop.index }}">
+        {%- endfor -%}
+      </div>
       {%- endif -%}
-
 
       {{ content }}
 

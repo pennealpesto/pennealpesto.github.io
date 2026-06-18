@@ -44,9 +44,14 @@ collections:
           name: "tag"
           widget: "string"
 
-      - label: "Excerpt Image"
-        name: "excerpt_image"
-        widget: "image"
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        allow_add: true
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
 
       - label: "Content"
         name: "content_text"
