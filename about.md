@@ -11,13 +11,13 @@ order: 1
 
 ## Tι είναι το penne al pesto;
 
-Το penne al pesto είναι ένα πρότζεκτ συγγραφής, ανάγνωσης, λεκτικού αυτοσχεδιασμού, ερμηνείας και παρερμηνείας με έδρα τα Χανιά. Στα πλαίσια των 22ων γενεθλίων της κατάληψης Rosa Nera απέκτησε και ψηφιακή μορφή, στην οποία φιλοξενούνται έργα απο φίλες, φίλους, φίλα.
+Το penne al pesto είναι ένα πρότζεκτ συγγραφής, ανάγνωσης, λεκτικού αυτοσχεδιασμού, ερμηνείας και παρερμηνείας με έδρα τα Χανιά. Στα πλαίσια των 22ων γενεθλίων της κατάληψης [Rosa Nera](https://rosanera.squat.gr/) απέκτησε και ψηφιακή μορφή, στην οποία φιλοξενούνται έργα απο φίλες, φίλους, φίλα.
 
 ## Γενέθλια Rosa Nera
 
 Παρακάτω η αφίσα των γενεθλίων.
 
-![Poster](/assets/images/rosa_22_web.jpg)
+![Rosa nera birthday poster greek](/assets/images/rosa_22_web.jpg)
 
 ### Δευτέρα 22/6
 - 2ος χρόνος βραδιές ποίησης: Ποιητικά παιχνίδια, συλλογική γραφή και ανάγνωση κ.α. ..., στις 20.00
@@ -42,8 +42,8 @@ order: 1
 
 ## What is penne al pesto? {#english}
 
-Penne al pesto is a writing, reading, verbal improvisation, interpretation and misinterpretation project based in Chania. Within the framework of Rosa Nera squat's 22nd anniversary a website was created, where works by friends are on display.
+Penne al pesto is a writing, reading, verbal improvisation, interpretation and misinterpretation project based in Chania. Within the framework of [Rosa Nera](https://rosanera.squat.gr/) squat's 22nd anniversary a website was created, where works by friends are on display.
 
 Below is the birthday events' poster.
 
-![Post main image](/assets/images/rosa_22_web.jpg)
+![Rosa nera birthday poster english](/assets/images/rosa_22_eng_web.jpg)
