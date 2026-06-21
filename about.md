@@ -7,11 +7,20 @@ headerTitle: About
 order: 1
 ---
 
+![small banner](/assets/images/banners/pennealpesto_small.jpg)
+
 [English below](#english)
 
 ## Tι είναι το penne al pesto;
 
 Το penne al pesto είναι ένα πρότζεκτ συγγραφής, ανάγνωσης, λεκτικού αυτοσχεδιασμού, ερμηνείας και παρερμηνείας με έδρα τα Χανιά. Στα πλαίσια των 22ων γενεθλίων της κατάληψης [Rosa Nera](https://rosanera.squat.gr/) απέκτησε και ψηφιακή μορφή, στην οποία φιλοξενούνται έργα απο φίλες, φίλους, φίλα.
+
+Στούς συνδέσμους παρακάτω, φιλοξενείται επίσης η περσινή συλλογή ποιημάτων των βραδιών ποίησης, σε μορφή pdf και epub.
+
+- [pdf](/assets/books/poetry_online.pdf)
+- [epub](/assets/books/poetry_online.epub)
+
+Η ιστοσελίδα είναι ενα πρότζεκτ ανοιχτού [κωδικα](https://github.com/pennealpesto/pennealpesto.github.io), που χρησιμοποιεί το static website generator jekyll και το CMS Sveltia.
 
 ## Γενέθλια Rosa Nera
 
@@ -43,6 +52,13 @@ order: 1
 ## What is penne al pesto? {#english}
 
 Penne al pesto is a writing, reading, verbal improvisation, interpretation and misinterpretation project based in Chania. Within the framework of [Rosa Nera](https://rosanera.squat.gr/) squat's 22nd anniversary a website was created, where works by friends are on display.
+
+In the links below, you can find last year's poetry collection
+
+- [pdf](/assets/books/poetry_online.pdf)
+- [epub](/assets/books/poetry_online.epub)
+
+The website is an [open-source project](https://github.com/pennealpesto/pennealpesto.github.io) using the static website generator Jekyll and the CMS Sveltia.
 
 Below is the birthday events' poster.
 
